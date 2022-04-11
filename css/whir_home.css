@@ -48,11 +48,11 @@ UNKNOWN { BOTTOM: 5px}
 
 /***用户登录***/
 .login{
-    font-size: 1.5rem;
+    font-size: 1rem;
     color:#3daee7;
     position: absolute;
-    right: 3%;
-    top: 5%;
+    right: 0%;
+    top: 10%;
 }
 
 /***原创精品***/

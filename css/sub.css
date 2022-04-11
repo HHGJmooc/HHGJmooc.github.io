@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.subtitle {
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    font-family: 'STSong';
+
+    position: relative;
+    top:10px;
+}
+
+.subsub {
+    width:1190px;
+    margin:25px auto 0px;
+}
+
+.subsub div {
+    display: inline-block;
+    width: 20.5%;
+    margin: 5px 2%;
+
+    text-align:center;
+    line-height:150px;
+    border-radius: 10px;
+
+    background-color: lightblue;
+    color: aliceblue;
+    font-size: 30px;
+}
