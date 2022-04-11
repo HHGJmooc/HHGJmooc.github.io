@@ -54,3 +54,61 @@
     width: 100%;
     border-radius: 10px;
 }
+
+.QA {
+    width:1190px;
+    margin: 0 auto;
+}
+.qa1 {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border-top: 3px solid skyblue;
+    border-left: 3px solid skyblue;
+}
+.qa2 {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border-top: 3px dashed skyblue;
+    border-right: 3px dashed skyblue;
+}
+.q {
+    display: inline-block;
+    margin-left: 10px;
+    border-bottom: 1px solid rgb(0, 183, 255);
+    font-size: 20px;
+    color: rgb(0, 183, 255);
+}
+.a {
+    /* display: inline-block; */
+    margin-top: 10px;
+    margin-left: 35px;
+    font-size: 10px;
+    color: black;
+}
+
+.ask {
+    display: inline-block;
+    width: 3%;
+    padding: 3px;
+    font-size: 15px;
+    border: 2px solid rgb(57, 159, 237);
+    border-radius: 5px 10px;
+
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+}
+.ans {
+    display: inline-block;
+    width: 3%;
+    padding: 3px;
+    font-size: 15px;
+    border: 2px solid rgb(57, 159, 237);
+    border-radius: 5px 10px;
+
+    position: absolute;
+    right: 5%;
+    bottom: 15px;
+}
