@@ -6,7 +6,7 @@
 .subtitle {
     font-size: 60px;
     text-align: center;
-    color: black;
+    color: rgb(0, 0, 0, 50);
     font-family: 'STSong';
 
     position: relative;
@@ -29,6 +29,10 @@
     background-color: lightblue;
     color: aliceblue;
     font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.75), -2px 2px 3px rgba(0, 0, 0, 0.75), 2px -2px 3px rgba(0, 0, 0, 0.75), -2px -2px 3px rgba(0, 0, 0, 0.75);
+
+    background-size: 100% 100%;
 }
 .subsub div a {
     color: aliceblue;
@@ -41,18 +45,25 @@
 }
 .video div {
     display: inline-block;
-    width: 20.5%;
-    margin: 10px 2%;
+    width: 20%;
+    margin: 50px 1.75% 0 1.75%;
+    padding: 5px;
 
     text-align:center;
-    border-radius: 10px;
+    border: 2px skyblue;
+    border-style: double;
+    border-radius: 5px;
 
+    /* background-color: rgb(222, 222, 222); */
     color: black;
-    font-size: 15px;
+    font-size: 16px;
+    font-family: 'STKai';
+    font-weight: bold;
 }
 .video div img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
 }
 
 .QA {
@@ -85,7 +96,7 @@
     margin-top: 10px;
     margin-left: 35px;
     font-size: 10px;
-    color: black;
+    color: rgb(0, 0, 0, 50);
 }
 
 .ask {

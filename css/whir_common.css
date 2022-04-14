@@ -43,12 +43,12 @@ a:hover {color:#2f9def; text-decoration:none;}
 .huiyuan li.hy1{ width:30px; background:url(../img/icon.jpg) left center no-repeat; float:left; padding-left:20px;}
 .huiyuan li.hy2{ width:65px; background:url(../img/icon1.jpg) left center no-repeat; float:left; padding-left:25px;}
 
-#header{ width:100%; height:145px; background:url(../img/tbg.jpg) repeat-x; display:block; min-width:1190px; }
-#header .top{ width:100%; height:145px; background:url(../img/tline.jpg) bottom center no-repeat;}
-#header .topmain{ position: relative; width:1190px; height:145px; margin:0 auto;}
+#header{ width:100%; height:130px; background:url(../img/tbg.jpg) repeat-x; display:block; min-width:1190px; }
+#header .top{ width:100%; height:130px; background:url(../img/tline.jpg) bottom center no-repeat;}
+#header .topmain{ position: relative; width:1190px; height:130px; margin:0 auto;}
 #header .topmain .searchbox{ width:1190px; height:65px;}
 .so_so{ width:857px; height:65px; float:left;}
-#header .logo{height:135px; float:lef; position: absolute; top: 5%;}
+#header .logo{height:90%; float:left; position: absolute; top: 5%;}
 .logo img{height:95%;}
 .saying {height: 10px; width: 900px; position:absolute; left:250px; top:35px}
 .mk_so{ width:602px; height:54px; margin-top:27px; margin-left:35px; float:left; overflow:hidden;}

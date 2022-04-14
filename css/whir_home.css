@@ -34,10 +34,11 @@ UNKNOWN { BOTTOM: 5px}
 /***猜你喜欢***/
 .column{ width:100%; height:293px; background:#f0f0f0;}
 .like{ width:1190px; height:293px; margin:15px auto;}
-.likecolumn{ width:892px; height:263px; float:left;}
-.likelist{ width:892px; height:207px; margin-top:18px;}
-.likevideo{ width:207px; height:188px; float:left; background:url(../img/link_bg.jpg) no-repeat;}
+.likecolumn{ width:100%; height:263px; float:left;}
+.likelist{ width:100%; height:207px; margin-top:18px;}
+.likevideo{ width:222px; height:188px; float:left; background:url(../img/link_bg.jpg) no-repeat;}
 .likevideo .videoimg{ width:205px; height:115px; margin:1px; position:relative;}
+.likevideo .videoimg img {width: 100%; height:100%}
 .likevideo .videoimg span.time{ display:block; height:16px; line-height:16px; padding:0px 10px; text-align:center; color:#fff; background:url(../img/timebg.png) repeat-x; position:absolute; right:3px; bottom:3px;}
 .likevideo .videotitle{ line-height:30px;}
 .likevideo .videotitle a{ font-size:12px; color:#666666; font-weight:bold; padding-left:5px;}
@@ -58,10 +59,10 @@ UNKNOWN { BOTTOM: 5px}
 /***原创精品***/
 .column1{ width:100%; height:430px; background:#fff;}
 .original{ width:1190px; height:430px; margin:15px auto;}
-.oricolumn{ width:892px; height:430px; float:left;}
-.orilist{ width:892px; height:333px; margin-top:20px; float:left;}
+.oricolumn{ width:100%; height:430px; float:left;}
+.orilist{ width:100%; height:333px; margin-top:20px; float:left;}
 .topvideo{ width:419px; height:333px; float:left; position:relative;}
-.titleinfo{ width:419px; height:83px; background:url(../img/ycbg.png) repeat; position:absolute; bottom:0px; left:0;}
+.titleinfo{ width:419px; height:83px; background-color: rgba(39, 105, 149, 0.5); position:absolute; bottom:0px; left:0;}
 .titleinfo h1{ width:419px; line-height:25px; font-size:14px; font-weight:bold;}
 .titleinfo h1 a{ color:#fff; padding-left:10px;}
 .titleinfo h1 a:hover{ text-decoration:underline;}
@@ -75,10 +76,12 @@ UNKNOWN { BOTTOM: 5px}
 .play{ width:36px; height:27px; position:absolute; left:10px; bottom:98px;}
 .play a{ display:block; width:36px; height:27px; background:url(../img/play.png) no-repeat; text-indent:-9999px;}
 
-.splist{ width:449px; height:332px; float:right;}
+.splist{ width:749px; height:332px; float:right;}
 .myvideo{ width:212px; height:158px; border:1px solid #e6e6e6; float:left;}
 .myvideoimg{ width:212px; height:118px; position:relative;}
-.myvideoimg h3{ width:205px; height:27px; line-height:27px; padding-left:7px; background:url(../img/timebg.png) repeat; position:absolute; bottom:0px; left:0;}
+
+.myvideoimg img {width: 100%; height: 100%;}
+.myvideoimg h3{ width:205px; height:27px; line-height:27px; padding-left:7px; background-color: rgba(69, 72, 75, 0.9); position:absolute; bottom:0px; left:0;}
 .myvideoimg h3 a{ font-size:12px; color:#fff; font-weight:bold;}
 .myvideoimg h3 a:hover{ text-decoration:underline;}
 .play1{ width:27px; height:19px; position:absolute; right:8px; bottom:5px;}
@@ -173,14 +176,14 @@ UNKNOWN { BOTTOM: 5px}
 
 /***问题解答and难题悬赏***/
 .wenti{ width:1190px; height:255px; margin:0px auto 20px;}
-.wenticolumn{ width:892px; height:255px; float:left;}
-.wtjdlist{ width:892px; height:195px; margin-top:20px;}
-.toppic{ width:254px; height:188px; float:left; border:1px solid #e5e5e5;}
-.wtjdlist ul{ width:600px; height:188px; float:right;}
+.wenticolumn{ width:100%; height:255px; float:left;}
+.wtjdlist{ width:100%; height:195px; margin-top:20px;}
+.toppic{ width:100%; float:left; border:1px solid #e5e5e5;}
+.wtjdlist ul{ width:800px; height:188px; float:right;}
 .wtjdlist li{ height:30px; line-height:29px; font-size:12px; color:#666666;}
-.wtjdlist li a{ color:#555555; padding-left:70px;}
-.wtjdlist li span{ float:right; color:#666666;}
-.wtjdlist li span a{ color:#666666;}
+.wtjdlist li a{ color:#555555; padding-left:10px;}
+.wtjdlist li span{ float:right; color:#666666; padding-right:20px;}
+/* .wtjdlist li span a{ color:#666666;} */
 .wtjdlist li a:hover{ color:#3daee7;}
 .txtScroll-top  .hd{ height:50px; font-family:"微软雅黑"; border-bottom:1px solid #d2d2d2;}
 .txtScroll-top .hd h1{ font-family:"微软雅黑"; width:100px; height:50px; padding-left:40px; background:url(../img/zyt.jpg) left center no-repeat; line-height:50px; font-size:22px; color:#3daee7; text-align:center; border-bottom:2px solid #3daee7; float:left;}
